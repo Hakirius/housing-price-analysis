@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bef7785b-e0f9-4c4e-b5aa-73f445458d29" width="400"/>
+ <img src="imagens/Capa.png" width="400"/>
 </p>
 
 # House Prices Prediction - Kaggle Regression Challenge
@@ -56,7 +56,7 @@ Projeto de regressão utilizando aprendizado de máquina para prever preços de 
 
    <p align="center">
      
-     <img width="547" height="118" alt="image" src="https://github.com/user-attachments/assets/671524ad-d34d-4468-a4be-9048b144d8e1" />
+     <img src="imagens/Tabela.png" width="400"/>
    </p>
 
    - Identificados através de boxplots e scatter plots
@@ -67,7 +67,7 @@ Projeto de regressão utilizando aprendizado de máquina para prever preços de 
 
    **Criação de heatmap de correlação para formulação de hipóteses**
 
-   <img width="1795" height="1384" alt="Untitled" src="https://github.com/user-attachments/assets/e4bfe77c-1151-4193-b968-4fcfc0d343cc" />
+   <img src="imagens/Heatmap.png"/>
 
    - **Correlações**: `OverallQual`, `GrLivArea` e `GarageCars` mostram alta correlação com o preço
 5. **Modelagem e avaliação**  
@@ -88,7 +88,7 @@ Com base na análise exploratória e na matriz de correlação entre variáveis 
 O preço de venda das casas varia de acordo com o ano em que a transação foi realizada.
 
 <p align="center">
-  <img width="599" height="432" alt="Untitled" src="https://github.com/user-attachments/assets/aa933e1b-00bf-4c40-b467-833b4576b214" />
+  <img src="imagens/Grafico1.png"/>
 
 </p>
 
@@ -99,16 +99,16 @@ Esse decaimento possivelmente está relacionado à **crise imobiliária dos Esta
 
 ### H2 — Área construída como principal fator de valorização  
 A área construída da casa influencia diretamente o valor de venda, sendo um dos principais fatores de precificação.
-<p align = "center">
-<img width="597" height="457" alt="Untitled" src="https://github.com/user-attachments/assets/11d35691-0190-4f9a-89e1-bd1e84d80cf8" />
+<p align="center">
+  <img src="imagens/Grafico2.png"/>
+
 </p>
 
 ### H3 — Impacto da idade e reformas no valor
 
 <p align="center">
-  <img width="617" height="455" alt="Untitled" src="https://github.com/user-attachments/assets/005fb11c-aa4c-4f5d-8075-bc861fe40804" />
+  <img src="imagens/Grafico3.png"/>
 </p>
-
 O gráfico acima mostra o **preço médio de venda por ano**, separado por faixas de **ano de construção** dos imóveis.
 
 É possível observar que imóveis mais recentes (`2000+`) mantêm preços significativamente mais altos em todos os anos analisados.  
@@ -120,9 +120,8 @@ A localização da casa em determinadas vizinhanças afeta significativamente o 
 Algumas vizinhanças concentram os imóveis mais valorizados, indicando disparidades regionais no mercado.
 
 <p align="center">
-<img width="1651" height="732" alt="Untitled" src="https://github.com/user-attachments/assets/866c808c-d698-49df-b6ff-6c6a4c6f08e0" />
+  <img src="imagens/Grafico4.png"/>
 </p>
-
 O gráfico acima mostra a distribuição dos preços de venda por bairro (`Neighborhood`), evidenciando grandes diferenças regionais.  
 Vizinhanças como **NoRidge**, **StoneBr** e **NridgHt** concentram os imóveis com os **preços mais elevados**, enquanto outras como **MeadowV**, **IDOTRR** e **BrDale** apresentam valores bem inferiores.
 
@@ -143,8 +142,9 @@ MAE (Mean Absolute Error) indica o erro médio absoluto entre o valor real e o v
 RMSE (Root Mean Squared Error) penaliza mais os grandes erros.
 R² (Coeficiente de Determinação) mede o quanto o modelo explica da variabilidade do target — quanto mais próximo de 1, melhor.
 
-<p align="center"> 
-  <img width="1789" height="490" alt="Untitled" src="https://github.com/user-attachments/assets/be3e1c30-9f0c-4713-94d3-e0e6f1150498" />
+<p align="center">
+  <img src="imagens/Grafico5.png"/>
+</p>
 
 ***Decision Tree*** apresenta maior dispersão nas predições, indicando menor precisão em relação aos outros modelos.
 ***Random Forest*** melhora a precisão, com boa concentração de pontos próximos da linha ideal.
