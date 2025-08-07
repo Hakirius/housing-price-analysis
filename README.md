@@ -1,5 +1,5 @@
 <p align="center">
- <img src="imagens/Capa.png">
+<img src="imagens/Capa.png" width="400"/>
 </p>
 
 # House Prices Prediction - Kaggle Regression Challenge
@@ -56,7 +56,7 @@ Projeto de regressão utilizando aprendizado de máquina para prever preços de 
 
    <p align="center">
      
-     <img src="imagens/Tabela.png" width="400"/>
+     <img src="imagens/Tabela.png"/>
    </p>
 
    - Identificados através de boxplots e scatter plots
