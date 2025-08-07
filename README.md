@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imagens/Capa.png"/>
+  <img src="imagens/Capa.jpg" width= "400"/>
 </p>
 
 # House Prices Prediction - Kaggle Regression Challenge
