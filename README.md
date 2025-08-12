@@ -123,7 +123,7 @@ Algumas vizinhanças concentram os imóveis mais valorizados, indicando disparid
   <img src="imagens/Grafico4.png"/>
 </p>
 O gráfico acima mostra a distribuição dos preços de venda por bairro (`Neighborhood`), evidenciando grandes diferenças regionais.  
-Vizinhanças como **NoRidge**, **StoneBr** e **NridgHt** concentram os imóveis com os **preços mais elevados**, enquanto outras como **MeadowV**, **IDOTRR** e **BrDale** apresentam valores bem inferiores.
+Vizinhanças como NoRidge, StoneBr e NridgHt concentram os imóveis com os preços mais elevados, enquanto outras como MeadowV, IDOTRR e BrDale apresentam valores bem inferiores.
 
 
 ---
